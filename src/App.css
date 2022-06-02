@@ -25,7 +25,27 @@
 }
 
 .App-link {
-  color: #61dafb;
+  background-color: #61dafb;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold; 
+}
+
+.App-link:active {
+  transform: scale(0.98);
+}
+
+.Dzikir-result {
+  margin-top: -20px;
+  font-size: 18px;
+  color: #282c34;
+  font-weight: bold;
+  background-color: #61dafb;
+  width: 300px;
+  padding: 10px 20px;
+  border-radius: 20px;
 }
 
 @keyframes App-logo-spin {
