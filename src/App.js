@@ -16,7 +16,7 @@ class App extends React.Component{
     });
     if(this.state.counter === 33){
       this.setState({
-        counter: 0,
+        counter: 1,
         jumlah: this.state.jumlah + 1
       });
     }
